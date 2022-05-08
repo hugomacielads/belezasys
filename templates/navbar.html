@@ -1,0 +1,41 @@
+{% load static %}
+<div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white" id="navbar">
+    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+        <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-4 d-none d-sm-inline">Menu</span>
+        </a>
+        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link align-middle px-0">
+                    <ion-icon name="home-outline"></ion-icon> <span class="ms-1 d-none d-sm-inline">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <ion-icon name="people-outline"></ion-icon> <span class="ms-1 d-none d-sm-inline">Clientes</span>
+                </a>
+                <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+            </li>
+            <li>
+                <a href="#" class="nav-link px-0 align-middle">
+                    <ion-icon name="bag-add-outline"></ion-icon> <span class="ms-1 d-none d-sm-inline">Produtos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link px-0 align-middle">
+                    <ion-icon name="reader-outline"></ion-icon><span class="ms-1 d-none d-sm-inline">Serviços</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link px-0 align-middle">
+                    <ion-icon name="basket-outline"></ion-icon><span class="ms-1 d-none d-sm-inline">Vendas</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link px-0 align-middle">
+                    <ion-icon name="person-add-outline"></ion-icon> <span class="ms-1 d-none d-sm-inline">Colaboradores</span> </a>
+            </li>
+        </ul>
+        <hr>
+    </div>
+</div>
